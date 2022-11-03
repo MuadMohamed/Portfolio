@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'the_font';
+    src: url("../fonts/fontname/fontname.eot");
+}
+
+.fa-linkedin{
+    color: rgb(111, 72, 125);
+    float: right;
+}
+.fa-github{
+float: right;
+color: rgb(111, 72, 125);
+}
+
+.fa-github:hover{
+    transform: scale(1.1);
+ transition: transform 0.5s, width 2s, height 2s, background-color 2s;
+}
+
+.fa-linkedin:hover{
+    transform: scale(1.1);
+ transition: transform 0.5s, width 2s, height 2s, background-color 2s;
+}
+
+
+body{
+    background-image: url("../image/back.jpeg");
+    background-size: 1900px;
+}
+
+.hero-image{
+    background-image: url(../image/photo-1519219788971-8d9797e0928e.avif);
+    background-size: cover;
+    text-align: center;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+    border-radius: 50px;
+}
+
+hr{
+    height: 2px;
+    background-color: blueviolet;
+    border-color: rgb(206, 201, 210);
+}
+
+.herobutton{
+    text-align: center;
+    font-family: lato;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: black;
+    
+}
+.herobutton:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    transform: scale(1.1);
+ transition: transform 0.5s;
+}
+
+.herotext{
+    text-align: center;
+   
+}
+
+
+h1{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 45px;
+}
+
+h1:hover{
+    transform: scale(1.1);
+ transition: transform 0.5s, width 2s, height 2s, background-color 2s;
+}
+
+h2{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 35px;
+}
+
+h3{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 35px;  
+}
+
+
+h4{
+text-align: center;
+font-family:'Lato', sans-serif;
+}
+
+
+div{
+margin-left: auto;
+margin-right: auto;
+}
+
+p{ text-align: center;
+    font-family: lato;
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+input{
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 13px;
+}
+
+.flexbox-container {
+    display: flex;
+    
+}
+
+.flexbox-item {
+    width: 200px;
+    margin:10px;
+    border:3px solic black;
+    background-color: rgba(210, 161, 183, 0.432);
+
+    margin-left: auto;
+ margin-right: auto;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+    border-radius: 30px;
+    
+}
+
+.flexbox-item-2{
+    min-height: 200px;
+    border-radius: 30px;
+}
+
+.flexbox-item-3{
+    min-height: 300px;
+    border-radius: 30px;
+}
+
+.flexbox-item-1:hover{
+ box-shadow: 63px 63px 63px gray;
+ cursor: pointer;
+ transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ transition: transform 0.5s;
+ 
+}
+.flexbox-item-2:hover{
+    box-shadow: 63px 63px 63px gray;
+    cursor: pointer;
+ transform: scale(1.1);
+ transition: transform 0.5s;
+   }
+   .flexbox-item-3:hover{
+    box-shadow: 63px 63px 63px gray;
+    cursor: pointer;
+ transform: scale(1.1);
+ transition: transform 0.5s;
+   }
+
+   
+
+
+   
